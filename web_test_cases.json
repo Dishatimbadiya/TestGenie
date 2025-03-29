@@ -1,0 +1,73 @@
+{
+    "Google": [
+        {
+            "description": "Verify 'Google Search' button on Google",
+            "type": "button",
+            "action": "click",
+            "xpath": "body/div[1]/div[3]/form[1]/div[1]/div[1]/div[3]/center[1]/input[1]",
+            "expected": "no_error"
+        },
+        {
+            "description": "Verify 'I'm Feeling Lucky' button on Google",
+            "type": "button",
+            "action": "click",
+            "xpath": "body/div[1]/div[3]/form[1]/div[1]/div[1]/div[3]/center[1]/input[2]",
+            "expected": "no_error"
+        },
+        {
+            "description": "Verify 'About' link on Google",
+            "type": "link",
+            "action": "click",
+            "xpath": "body/div[1]/div[1]/a[1]",
+            "expected": "no_error"
+        }
+    ],
+    "Amazon": [
+        {
+            "description": "Verify field-keywords input field on Amazon",
+            "type": "input",
+            "action": "send_keys",
+            "xpath": "//*[@id=\"captchacharacters\"]",
+            "value": "test input",
+            "expected": "value_exists"
+        },
+        {
+            "description": "Verify 'Continue shopping' button on Amazon",
+            "type": "button",
+            "action": "click",
+            "xpath": "body/div[1]/div[1]/div[3]/div[1]/div[1]/form[1]/div[2]/div[1]/span[1]/span[1]/button[1]",
+            "expected": "no_error"
+        },
+        {
+            "description": "Verify 'Try different image' link on Amazon",
+            "type": "link",
+            "action": "click",
+            "xpath": "body/div[1]/div[1]/div[3]/div[1]/div[1]/form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/a[1]",
+            "expected": "no_error"
+        }
+    ],
+    "Flipkart": [
+        {
+            "description": "Verify q input field on Flipkart",
+            "type": "input",
+            "action": "send_keys",
+            "xpath": "//*[@id=\"container\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/form[1]/div[1]/div[1]/input[1]",
+            "value": "test input",
+            "expected": "value_exists"
+        },
+        {
+            "description": "Verify 'Search Icon' button on Flipkart",
+            "type": "button",
+            "action": "click",
+            "xpath": "//*[@id=\"container\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[2]/form[1]/div[1]/button[1]",
+            "expected": "no_error"
+        },
+        {
+            "description": "Verify 'Login' link on Flipkart",
+            "type": "link",
+            "action": "click",
+            "xpath": "//*[@id=\"container\"]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/a[1]",
+            "expected": "no_error"
+        }
+    ]
+}
