@@ -122,7 +122,7 @@ class TestExecutor:
 def main():
     executor = TestExecutor()
     try:
-        executor.run_tests_from_file("web_test_cases.json")
+        executor.run_tests_from_file("test_cases.json")
     finally:
         executor.close()
 

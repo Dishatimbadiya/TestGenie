@@ -1,0 +1,187 @@
+{
+  "Google": [
+    {
+      "description": "Test btnK field on Google",
+      "type": "input",
+      "action": "send_keys",
+      "xpath": "//*[@name='btnK']",
+      "value": "test input",
+      "expected": "value_exists"
+    },
+    {
+      "description": "Test btnI field on Google",
+      "type": "input",
+      "action": "send_keys",
+      "xpath": "//*[@name='btnI']",
+      "value": "test input",
+      "expected": "value_exists"
+    },
+    {
+      "description": "Test 'About' link on Google",
+      "type": "link",
+      "action": "click",
+      "xpath": "/div[1]/div[1]/a[1]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Store' link on Google",
+      "type": "link",
+      "action": "click",
+      "xpath": "/div[1]/div[1]/a[2]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Gmail' link on Google",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"gb\"]/div/div[1]/div/div[1]/a",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Images' link on Google",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"gb\"]/div/div[1]/div/div[2]/a",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '\u0939\u093f\u0928\u094d\u0926\u0940' link on Google",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"SIvCob\"]/a[1]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '\u09ac\u09be\u0982\u09b2\u09be' link on Google",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"SIvCob\"]/a[2]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41' link on Google",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"SIvCob\"]/a[3]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '\u092e\u0930\u093e\u0920\u0940' link on Google",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"SIvCob\"]/a[4]",
+      "expected": "no_error"
+    }
+  ],
+  "Amazon": [
+    {
+      "description": "Test field-keywords field on Amazon",
+      "type": "input",
+      "action": "send_keys",
+      "xpath": "//*[@id='captchacharacters']",
+      "value": "test input",
+      "expected": "value_exists"
+    },
+    {
+      "description": "Test 'Continue shopping' button on Amazon",
+      "type": "button",
+      "action": "click",
+      "xpath": "/div[1]/div[1]/div[3]/div/div/form/div[2]/div/span/span/button",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Try different image' link on Amazon",
+      "type": "link",
+      "action": "click",
+      "xpath": "/div[1]/div[1]/div[3]/div/div/form/div[1]/div/div/div[2]/div[1]/div[2]/a",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Conditions of Use' link on Amazon",
+      "type": "link",
+      "action": "click",
+      "xpath": "/div[1]/div[3]/a[1]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Privacy Policy' link on Amazon",
+      "type": "link",
+      "action": "click",
+      "xpath": "/div[1]/div[3]/a[2]",
+      "expected": "no_error"
+    }
+  ],
+  "Flipkart": [
+    {
+      "description": "Test q field on Flipkart",
+      "type": "input",
+      "action": "send_keys",
+      "xpath": "//*[@name='q']",
+      "value": "test input",
+      "expected": "value_exists"
+    },
+    {
+      "description": "Test 'Search Icon' button on Flipkart",
+      "type": "button",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div[1]/header/div[1]/div[2]/form/div[1]/button[1]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Login' link on Flipkart",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div[1]/header/div[2]/div[2]/div/div[1]/div[2]/div[2]/a",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Cart' link on Flipkart",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div[1]/header/div[2]/div[3]/div/a[2]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test 'Become a Seller' link on Flipkart",
+      "type": "link",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[1]/div[1]/header/div[2]/div[4]/div/a[2]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '' button on Flipkart",
+      "type": "button",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div[1]/div/div[2]/div/div/div/div/div/div/div/div/button[1]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '' button on Flipkart",
+      "type": "button",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div[1]/div/div[2]/div/div/div/div/div/div/div/div/button[2]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '' button on Flipkart",
+      "type": "button",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div[1]/div/div[3]/div/div/div/div/div/div/div[2]/div/div/button[1]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '' button on Flipkart",
+      "type": "button",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div[1]/div/div[5]/div/div/div/div/div/div/div[2]/div/div/button[1]",
+      "expected": "no_error"
+    },
+    {
+      "description": "Test '' button on Flipkart",
+      "type": "button",
+      "action": "click",
+      "xpath": "//*[@id=\"container\"]/div/div[1]/div/div/div/div/div[1]/div/div/div/div[2]/div[1]/div/div[6]/div/div/div/div/div/div/div[2]/div/div/button[1]",
+      "expected": "no_error"
+    }
+  ]
+}
